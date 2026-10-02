@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Gaspunk Cincinnatus</title>
+<meta name="description" content="Gaspunk Cincinnatus — Septentrionalis Independentia. Build, learn, repair, live.">
+<style>
+  *{box-sizing:border-box} html,body{margin:0;min-height:100%;background:#17130e;color:#ead5ad}
+  body{font-family:Georgia,'Times New Roman',serif}
+  .hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;background:#17130e url('hero.png') center center/cover no-repeat}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.02) 55%,rgba(0,0,0,.38) 100%);pointer-events:none}
+  .fallback{position:relative;z-index:1;width:100%;padding:24px 18px 28px;text-align:center;text-shadow:0 2px 12px #000;opacity:0}
+  .fallback h1{margin:0;font-size:clamp(2rem,7vw,5rem);letter-spacing:.06em}.fallback p{margin:.5rem 0 0;letter-spacing:.28em;text-transform:uppercase;font-size:clamp(.75rem,1.8vw,1rem)}
+  @media (max-width:700px){.hero{background-position:58% center}.hero::after{background:linear-gradient(to bottom,rgba(0,0,0,.03),rgba(0,0,0,.28))}}
+</style>
+</head>
+<body>
+<main class="hero" role="img" aria-label="Gaspunk Cincinnatus: Roman-inspired summer homestead workshop with machinery, logic experiments, twinflowers, fountain, sword, and Toyota chariot fusion.">
+  <div class="fallback"><h1>GASPUNK CINCINNATUS</h1><p>Septentrionalis Independentia</p></div>
+</main>
+</body>
+</html>
